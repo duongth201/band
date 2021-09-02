@@ -47,6 +47,7 @@ html {
     display: inline-block;
     margin-top: 15px;
     border: none;
+    text-align: center;
 }
 
 .btn:hover {
@@ -92,6 +93,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 /* Main */
 #main {
 
@@ -132,7 +137,7 @@ html {
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
-    display: inline-block;
+    display: block;
 }
 
 #nav > li:hover .subnav {
@@ -274,7 +279,7 @@ html {
 }
 
 #content .member-list {
-    margin-top: 48px;
+    margin-top: 32px;
     /* overflow: hidden; ôm hết thẻ con ảnh và đẩy chữ phần dưới xuống dưới */
 }
 
@@ -333,8 +338,7 @@ html {
 
 /*  Place */
 .places-list {
-    margin-top: 32px;
-    margin-bottom: 48px;
+    margin-top: 16px;
 }
 
 .place-img {
